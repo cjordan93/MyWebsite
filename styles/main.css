@@ -3,24 +3,18 @@ body {
     padding: 50px 0 0 0;
 }
 
-.footer {
+#footer {
     position: fixed;
     bottom: 0;
     width: 100%;
     height: 50px;
-    background-color: dimgray;
 }
 
-.fa {
-    color: black;
+.fa-2x {
+    color: navajowhite;
     padding: 0 2%;
 }
 
-.font-attribution {
-    float: right;
-    color: black;
-}
-
-.footer .container .row {
+#footer .container-fluid .row {
     text-align: center;
 }

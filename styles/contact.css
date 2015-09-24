@@ -1,0 +1,38 @@
+body {
+    background-color: #525564;
+}
+
+.btn.contact {
+    font-size: 30px;
+}
+.col-md-4 {
+    text-align: center;
+    padding: 200px 0;
+}
+
+.fa-5x {
+    color: ghostwhite;
+}
+
+#footer {
+    background-color: #525564;
+}
+
+@media screen and (max-width: 991px) {
+    .btn.contact {
+        font-size: 20px;
+    }
+    .col-md-4 {
+        padding: 0 0;
+    }
+    .fa-3x {
+        display: none;
+    }
+    body {
+        padding: 80px 0;
+    }
+}
+
+p {
+    font-size: 40px;
+}
