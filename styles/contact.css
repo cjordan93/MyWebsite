@@ -1,5 +1,8 @@
+/* Color of page background */
 body {
     background-color: #525564;
+    /* Custom padding */
+    padding: 50px 0 0 0;
 }
 
 .btn.contact {
@@ -10,14 +13,22 @@ body {
     padding: 200px 0;
 }
 
+/* Color of phone/mail Awesome Font */
 .fa-5x {
+    color: navajowhite;
+}
+
+/* Color of arrow Awesome Font */
+.fa-3x {
     color: ghostwhite;
 }
 
-#footer {
+/* Color of footer */
+.footer {
     background-color: #525564;
 }
 
+/* Custom CSS for tablet size screens and lower */
 @media screen and (max-width: 991px) {
     .btn.contact {
         font-size: 20px;
@@ -29,10 +40,12 @@ body {
         display: none;
     }
     body {
-        padding: 80px 0;
+        padding: 80px 0 0 0;
     }
 }
 
+/* Color and size of paragraph text */
 p {
     font-size: 40px;
+    color: ghostwhite;
 }

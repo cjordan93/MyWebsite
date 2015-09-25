@@ -1,20 +1,27 @@
+/* Begin sticky footer CSS */
+html {
+  position: relative;
+  min-height: 100%;
+}
 
 body {
-    padding: 50px 0 0 0;
+    padding: 70px 0 0 0;
+      /* Margin bottom by footer height */
+    margin-bottom: 50px;
 }
 
-#footer {
-    position: fixed;
+.footer {
+    position: absolute;
     bottom: 0;
     width: 100%;
+    /* Fixed height for footer */
     height: 50px;
+    text-align: center;
+    padding: 10px 0;
 }
+/* End sticky footer CSS */
 
-.fa-2x {
+.footer .fa-2x {
     color: navajowhite;
     padding: 0 2%;
-}
-
-#footer .container-fluid .row {
-    text-align: center;
 }

@@ -1,0 +1,14 @@
+
+body {
+    background-color: #96C0CE;
+}
+
+.col-md-3 {
+    text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+    body {
+        padding: 50px 0 0 0;
+    }
+}

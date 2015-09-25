@@ -1,0 +1,11 @@
+body {
+    background-color: #C25B56;
+    padding: 60px 0 0 0;
+}
+
+.list-group-item {
+    margin: 10px 0;
+}
+.list-group a:hover {
+    text-decoration: none;
+}
